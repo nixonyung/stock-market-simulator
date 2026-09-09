@@ -1,0 +1,7 @@
+{
+  "extends": "$app/tsconfig",
+  "compilerOptions": {
+    "types": ["$app/types", "bun", "chroma-js"],
+  },
+  "include": ["src", "vite.config.ts"]
+}

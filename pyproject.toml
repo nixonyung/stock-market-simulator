@@ -1,0 +1,10 @@
+[project]
+name = "stock-market-simulator"
+version = "0.1.0"
+requires-python = ">=3.14"
+dependencies = [
+    "lightgbm[polars]>=4.7.0",
+    "polars>=2.1.0",
+    "polars-talib>=0.2.1",
+    "pydantic-settings>=2.16.2",
+]
